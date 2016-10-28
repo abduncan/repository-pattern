@@ -29,5 +29,6 @@ namespace Company.Domain.Repository.GenericRepository
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Visit> Visits { get; set; }
+        public string Email { get; internal set; }
     }
 }

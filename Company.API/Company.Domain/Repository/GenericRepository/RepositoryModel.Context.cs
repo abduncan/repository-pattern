@@ -13,9 +13,9 @@ namespace Company.Domain.Repository.GenericRepository
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CompanyEntities : DbContext
+    public partial class RepositoryModel : DbContext
     {
-        public CompanyEntities()
+        public RepositoryModel()
             : base("name=CompanyEntities")
         {
         }
